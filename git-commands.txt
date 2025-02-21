@@ -1,0 +1,13 @@
+git config --global user.name ""
+git config --global user.email ""
+git config --list 
+git init 
+git diff
+git diff --staged
+git log
+git log --oneline
+git log --oneline --all --graph
+git rebase -i HEAD~3 (squash can you write on commits while use this command after open something use # on commit messages)git rebase --abort
+
+
+
