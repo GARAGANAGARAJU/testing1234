@@ -8,9 +8,6 @@ git log
 git log --oneline
 git log --oneline --all --graph
 git rebase -i HEAD~3 (squash can you write on commits while use this command after open something use # on commit messages)git rebase --abort
-git stash 
-git stash list
-git stash pop (Applies the latest stash and removes it from the stash list.✅ Stash is deleted after applying)
-git stash apply (Applies the latest stash to the working directory without removing it from the stash list.❌ Stash remains in git stash list)
-git stash drop stash@{0}  , git stash drop (remove stash)
+
+
 
